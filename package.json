@@ -1,0 +1,11 @@
+{
+  "name": "orion-monorepo",
+  "private": true,
+  "scripts": {
+    "db:up": "docker compose up -d",
+    "dev:backend": "pnpm --filter @orion/backend dev",
+    "dev:storefront": "pnpm --filter @orion/storefront dev",
+    "seed": "pnpm --filter @orion/backend seed",
+    "seed:all": "pnpm --filter @orion/backend seed:all"
+  }
+}

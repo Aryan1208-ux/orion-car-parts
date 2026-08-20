@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+  <text x="200" y="105" text-anchor="middle" font-family="'Arial Black', 'Impact', sans-serif" font-size="95" font-weight="900" fill="#0f172a" letter-spacing="4">DODGE</text>
+  <line x1="420" y1="30" x2="450" y2="120" stroke="#d32f2f" stroke-width="12" stroke-linecap="round" />
+  <line x1="445" y1="30" x2="475" y2="120" stroke="#d32f2f" stroke-width="12" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,8 @@
+node_modules/
+.medusa/
+.next/
+dist/
+build/
+*.log
+.DS_Store
+.env*

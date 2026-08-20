@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect x="20" y="30" width="140" height="140" rx="12" fill="#c8102e" stroke="#8b0000" stroke-width="4" />
+  <text x="90" y="132" text-anchor="middle" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-size="105" font-weight="900" fill="#ffffff" letter-spacing="-2">G</text>
+  <rect x="180" y="30" width="140" height="140" rx="12" fill="#c8102e" stroke="#8b0000" stroke-width="4" />
+  <text x="250" y="132" text-anchor="middle" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-size="105" font-weight="900" fill="#ffffff" letter-spacing="-2">M</text>
+  <rect x="340" y="30" width="140" height="140" rx="12" fill="#c8102e" stroke="#8b0000" stroke-width="4" />
+  <text x="410" y="132" text-anchor="middle" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-size="105" font-weight="900" fill="#ffffff" letter-spacing="-2">C</text>
+</svg>
