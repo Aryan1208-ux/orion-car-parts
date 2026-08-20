@@ -73,7 +73,7 @@ export default async function CheckoutPage() {
 
                   return (
                     <div key={item.id} className="ck-line ck-line-compact">
-                      <div className="ck-line-img-wrap ck-img-sm">
+                      <div className="ck-line-img-wrap ck-img-sm" style={{ position: "relative", width: "72px", height: "56px", minWidth: "72px", minHeight: "56px", flexShrink: 0, overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
                         {image ? (
                           <Image
                             src={image}

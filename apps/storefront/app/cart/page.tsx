@@ -98,7 +98,7 @@ export default async function CartPage() {
 
                   return (
                     <div key={item.id} className="ck-line">
-                      <div className="ck-line-img-wrap">
+                      <div className="ck-line-img-wrap" style={{ position: "relative", width: "100px", height: "80px", minWidth: "100px", minHeight: "80px", flexShrink: 0, overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
                         {image ? (
                           <Image
                             src={image}

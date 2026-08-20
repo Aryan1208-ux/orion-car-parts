@@ -2359,6 +2359,150 @@ h1, h2, h3, h4, .head {
   transform: none;
 }
 
+/* ─── PDP Layout ─── */
+.pdp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  padding: 32px 0;
+}
+.pdp-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f4f5f7;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+.pdp-photo img {
+  object-fit: contain;
+}
+.photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #999;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.product-tag {
+  display: inline-block;
+  background: var(--red-racing, #c62828);
+  color: #fff;
+  font-family: var(--font-head, sans-serif);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  padding: 5px 14px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.pdp-title {
+  font-family: var(--font-head, sans-serif);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--ink, #1a1a1a);
+  margin: 0 0 8px;
+}
+.pdp-sub {
+  font-size: 14px;
+  color: var(--faint, #888);
+  margin: 0 0 16px;
+}
+.pdp-price {
+  font-family: var(--font-head, sans-serif);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--ink, #1a1a1a);
+  margin: 0 0 4px;
+}
+.pdp-price-note {
+  font-size: 13px;
+  color: var(--faint, #888);
+  margin: 0 0 20px;
+}
+.pdp-buy {
+  margin-bottom: 24px;
+}
+.pdp-perks {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.pdp-perk {
+  font-size: 14px;
+  color: var(--ink, #1a1a1a);
+}
+.pdp-perk b {
+  color: #2e7d32;
+  margin-right: 6px;
+}
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+.spec-table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  font-size: 14px;
+}
+.spec-table td:first-child {
+  font-weight: 700;
+  color: var(--ink, #1a1a1a);
+  width: 40%;
+}
+.spec-table td:last-child {
+  color: var(--faint, #555);
+}
+.pdp-desc {
+  padding: 40px 0;
+}
+.pdp-desc .head {
+  font-family: var(--font-head, sans-serif);
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0 0 16px;
+  color: var(--ink, #1a1a1a);
+}
+.pdp-desc p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--faint, #555);
+}
+.breadcrumbs {
+  padding: 16px 0;
+  font-size: 13px;
+  color: var(--faint, #888);
+}
+.breadcrumbs a {
+  color: var(--faint, #888);
+  text-decoration: none;
+}
+.breadcrumbs a:hover {
+  color: var(--red-racing, #c62828);
+}
+
+@media (max-width: 768px) {
+  .pdp-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 20px 0;
+  }
+  .pdp-title {
+    font-size: 22px;
+  }
+  .pdp-price {
+    font-size: 26px;
+  }
+}
+
 /* ─── PDP Product Detail Page Buy Block ─── */
 .pdp-buy-container {
   display: flex;
